@@ -1,0 +1,122 @@
+@keyframes example {
+    from {
+    	top: 0px;
+    }
+    to {
+    	top: 45px;
+    }
+}
+a.element {
+	width: 25%;
+	color: orange;
+	text-align: center;
+}
+a {
+	text-decoration:none;
+	color: black;
+	vertical-align: middle;
+}
+p {
+	font-family: verdana;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+/*nav correspond à la barre de menu*/
+#nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-aroud;
+	width: 75%;
+}
+#nav2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-aroud;
+	width: 100%;
+}
+.bouton {
+	margin: auto;
+	width: 33.33%;
+	text-align: center;
+	font-size: 45px;
+	color: grey;
+}
+.acceuil {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	color: grey;
+	color: white;
+}
+.bouton:hover {
+	background-color: grey;
+	color: white;
+}
+#entete2 .bouton {
+	width: 25%;
+	color: white;
+	font-size: 30px;
+}
+.vide {
+	height: 8px;
+}
+/*entete correspond à la partie haute du site contenant le titre et la barre de navigation*/
+#entete2 {
+	box-shadow: 0px 2px 15px grey;
+	position: fixed;
+	left: 0px;
+	width: 100%;
+	display: flex;
+	background-color: #b2b2b2;
+	flexwrap: nowrap;
+	z-index:0;
+	animation-name: example;
+	animation-duration: 2s;
+	top: 45px;
+	min-width: 1140px;
+}
+#entete {
+	box-shadow: 0px 2px 5px grey;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	display: flex;
+	background-color: white;
+	flexwrap: nowrap;
+	z-index:15;
+	min-width: 1140px;
+}
+a.element {
+	color: orange;
+	font-size: 45px;
+	margin: auto;
+}
+body {
+	position: absolute;
+	left: 0px;
+	top: 95px;
+	z-index:1
+}
+section h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: verdana;
+}
+img {
+	width: 100%;
+}
+p img {
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+section {
+	width: 90%;
+	margin: auto;
+	border-radius: 5px;
+}
