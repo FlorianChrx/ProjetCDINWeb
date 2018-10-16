@@ -1,15 +1,10 @@
-@keyframes example {
+@keyframes descente0tox {
     from {
     	top: 0px;
     }
     to {
-    	top: 45px;
+    	top: 4vw;
     }
-}
-a.element {
-	width: 25%;
-	color: orange;
-	text-align: center;
 }
 a {
 	text-decoration:none;
@@ -24,41 +19,32 @@ p {
 	margin-right: 20px;
 }
 /*nav correspond à la barre de menu*/
-#nav {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-aroud;
-	width: 75%;
-}
-#nav2 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-aroud;
-	width: 100%;
-}
 .bouton {
-	margin: auto;
-	width: 33.33%;
+    margin: auto;
+    vertical-align: middle;
+	width: 25%;
 	text-align: center;
-	font-size: 45px;
+	font-size: 3.5vw;
+    height: 100%;
 	color: grey;
 }
-.acceuil {
+.logohaarp {
 	margin: auto;
-	width: 100%;
+	width: 25%;
 	text-align: center;
-	font-size: 30px;
-	color: grey;
-	color: white;
+	font-size: 3.5vw;
+    height: 100%;
+	color: orange;
 }
 .bouton:hover {
 	background-color: grey;
 	color: white;
 }
 #entete2 .bouton {
+    padding-top: 0.6vw;
 	width: 25%;
 	color: white;
-	font-size: 30px;
+	font-size: 2.5vw;
 }
 .vide {
 	height: 8px;
@@ -75,8 +61,7 @@ p {
 	z-index:0;
 	animation-name: example;
 	animation-duration: 2s;
-	top: 45px;
-	min-width: 1140px;
+	top: 4vw;
 }
 #entete {
 	box-shadow: 0px 2px 5px grey;
@@ -88,12 +73,7 @@ p {
 	background-color: white;
 	flexwrap: nowrap;
 	z-index:15;
-	min-width: 1140px;
-}
-a.element {
-	color: orange;
-	font-size: 45px;
-	margin: auto;
+    height: ;
 }
 body {
 	position: absolute;
@@ -103,7 +83,7 @@ body {
 }
 section h1 {
 	text-align: center;
-	font-size: 50px;
+	font-size: 6vw;
 	font-family: verdana;
 }
 img {
@@ -118,7 +98,7 @@ p img {
 section {
 	width: 90%;
 	margin: auto;
-	border-radius: 5px;
+    border-bottom: solid grey;
 }
 #upper  {
 	position: fixed;
