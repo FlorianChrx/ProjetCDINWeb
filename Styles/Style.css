@@ -111,14 +111,11 @@ section {
 p>a, li>a{
     color: blue;
 }
-p>a:hover{
+p>a:hover, li>a:hover{
     font-size: 110%;
     text-decoration: underline;
 }
-li>a:hover{
-    font-size: 170%;
-    text-decoration: underline;
-}
+
 li {
     list-style: circle;
 }
