@@ -132,7 +132,7 @@ p.clear {
 	background: gray;
     opacity: 0.1;
     animation-name: rect;
-    animation-direction: alternate-reverse;
+    animation-direction: alternate;
     animation-iteration-count: infinite;
 }
 #rectangles {
@@ -210,6 +210,9 @@ p.clear {
 }
 @keyframes rect {
     0% {
+        opacity: 0;
+    }
+    50% {
         opacity: 0.2;
     }
     100% {
