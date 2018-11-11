@@ -76,10 +76,11 @@ p {
 body {
 	position: absolute;
 	left: 0px;
-	top: 95px;
+	top: 20px;
 	z-index:1;
 }
 section>h1 {
+    padding-top: 40px;
 	text-align: center;
 	font-size: 5vw;
 	font-family: Courier, monospace;
